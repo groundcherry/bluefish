@@ -1,0 +1,35 @@
+============
+INTRODUCTION
+============
+
+Bluefish is a testing ground for Bluebottle-2.0, which incorporates multi-GPU
+operation using MPI to communicate across nodes and OpenMP to communicate
+between GPUs on the same node. Bluefish is under heavy development.
+
+====================
+OBTAINING BLUEFISH
+====================
+
+Bluefish has been released under the Apache License, Version 2.0, and it is
+available for download at http://github.com/groundcherry/bluefish.
+
+=====================
+INSTALLING BLUEFISH
+=====================
+
+For installation instructions, see the accompanying INSTALL document.
+
+========================
+BLUEFISH DOCUMENTATION
+========================
+
+The most recent documentation can be found on the Bluefish Wiki at
+http://lucan.me.jhu.edu.
+
+=========================
+QUESTIONS AND BUG REPORTS
+=========================
+
+Bluefish is an academic research code being actively developed. Should you
+have any questions about the code, please submit an issue using the Bluefish
+Github Issues service at http://github.com/groundcherry/bluefish/issues.

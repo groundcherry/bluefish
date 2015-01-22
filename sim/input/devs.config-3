@@ -1,0 +1,13 @@
+n_nodes 3
+
+n_devs 4
+name node0
+0 1 2 3
+
+n_devs 4
+name node1
+0 1 2 3
+
+n_devs 4
+name node2
+0 1 2 3
