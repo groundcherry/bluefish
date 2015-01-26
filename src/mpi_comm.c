@@ -56,7 +56,7 @@ void mpi_dom_init(void)
   for(k = Dom[rank].Gcc._ksb; k <= Dom[rank].Gcc._keb; k++) {
     for(j = Dom[rank].Gcc._jsb; j <= Dom[rank].Gcc._jeb; j++) {
       for(i = Dom[rank].Gcc._isb; i <= Dom[rank].Gcc._ieb; i++) {
-        p[i + j*Dom[rank].Gcc.s1b + k*Dom[rank].Gcc.s2b] = rank;
+        p[i + j*Dom[rank].Gcc.s1b + k*Dom[rank].Gcc.s2b] = 0.;
         p0[i + j*Dom[rank].Gcc.s1b + k*Dom[rank].Gcc.s2b] = 0.;
       }
     }

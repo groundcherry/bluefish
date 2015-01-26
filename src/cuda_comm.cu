@@ -85,9 +85,9 @@ void copy_node_to_devs(void)
     // temorary device-level copy arrays
     real *_p_ = (real*) malloc(dom[dev].Gcc.s3b * sizeof(real));
     real *_p0_ = (real*) malloc(dom[dev].Gcc.s3b * sizeof(real));
-    real *_flag_u_ = (real*) malloc(dom[dev].Gfx.s3b * sizeof(real));
-    real *_flag_v_ = (real*) malloc(dom[dev].Gfy.s3b * sizeof(real));
-    real *_flag_w_ = (real*) malloc(dom[dev].Gfz.s3b * sizeof(real));
+    int *_flag_u_ = (int*) malloc(dom[dev].Gfx.s3b * sizeof(real));
+    int *_flag_v_ = (int*) malloc(dom[dev].Gfy.s3b * sizeof(real));
+    int *_flag_w_ = (int*) malloc(dom[dev].Gfz.s3b * sizeof(real));
 
     // p
     for(k = dom[dev].Gcc._ks; k <= dom[dev].Gcc._ke; k++) {
@@ -152,11 +152,11 @@ void copy_node_to_devs(void)
     checkCudaErrors(cudaMemcpy(_p0[drank], _p0_,
       sizeof(real) * dom[dev].Gcc.s3b, cudaMemcpyHostToDevice));
     checkCudaErrors(cudaMemcpy(_flag_u[drank], _flag_u_,
-      sizeof(real) * dom[dev].Gfx.s3b, cudaMemcpyHostToDevice));
+      sizeof(int) * dom[dev].Gfx.s3b, cudaMemcpyHostToDevice));
     checkCudaErrors(cudaMemcpy(_flag_v[drank], _flag_v_,
-      sizeof(real) * dom[dev].Gfy.s3b, cudaMemcpyHostToDevice));
+      sizeof(int) * dom[dev].Gfy.s3b, cudaMemcpyHostToDevice));
     checkCudaErrors(cudaMemcpy(_flag_w[drank], _flag_w_,
-      sizeof(real) * dom[dev].Gfz.s3b, cudaMemcpyHostToDevice));
+      sizeof(int) * dom[dev].Gfz.s3b, cudaMemcpyHostToDevice));
 
     // clean up
     free(_p_);
@@ -193,9 +193,9 @@ void copy_devs_to_node(void)
     // temorary device-level copy arrays
     real *_p_ = (real*) malloc(dom[dev].Gcc.s3b * sizeof(real));
     real *_p0_ = (real*) malloc(dom[dev].Gcc.s3b * sizeof(real));
-    real *_flag_u_ = (real*) malloc(dom[dev].Gfx.s3b * sizeof(real));
-    real *_flag_v_ = (real*) malloc(dom[dev].Gfy.s3b * sizeof(real));
-    real *_flag_w_ = (real*) malloc(dom[dev].Gfz.s3b * sizeof(real));
+    int *_flag_u_ = (int*) malloc(dom[dev].Gfx.s3b * sizeof(real));
+    int *_flag_v_ = (int*) malloc(dom[dev].Gfy.s3b * sizeof(real));
+    int *_flag_w_ = (int*) malloc(dom[dev].Gfz.s3b * sizeof(real));
 
     // copy from device to host
     checkCudaErrors(cudaMemcpy(_p_, _p[drank],
@@ -203,11 +203,11 @@ void copy_devs_to_node(void)
     checkCudaErrors(cudaMemcpy(_p0_, _p0[drank],
       sizeof(real) * dom[dev].Gcc.s3b, cudaMemcpyDeviceToHost));
     checkCudaErrors(cudaMemcpy(_flag_u_, _flag_u[drank],
-      sizeof(real) * dom[dev].Gfx.s3b, cudaMemcpyDeviceToHost));
+      sizeof(int) * dom[dev].Gfx.s3b, cudaMemcpyDeviceToHost));
     checkCudaErrors(cudaMemcpy(_flag_v_, _flag_v[drank],
-      sizeof(real) * dom[dev].Gfy.s3b, cudaMemcpyDeviceToHost));
+      sizeof(int) * dom[dev].Gfy.s3b, cudaMemcpyDeviceToHost));
     checkCudaErrors(cudaMemcpy(_flag_w_, _flag_w[drank],
-      sizeof(real) * dom[dev].Gfz.s3b, cudaMemcpyDeviceToHost));
+      sizeof(int) * dom[dev].Gfz.s3b, cudaMemcpyDeviceToHost));
 
     // p
     for(k = dom[dev].Gcc._ks; k <= dom[dev].Gcc._ke; k++) {
