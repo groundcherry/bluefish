@@ -638,22 +638,22 @@ void domain_map(void)
 
   DOM.Gcc._is = DOM.Gcc.is;
   DOM.Gcc._isb = DOM.Gcc.isb;
-  DOM.Gcc.in = DOM.Gcc.in;
-  DOM.Gcc.inb = DOM.Gcc.inb;
+  DOM.Gcc._in = DOM.Gcc.in;
+  DOM.Gcc._inb = DOM.Gcc.inb;
   DOM.Gcc._ie = DOM.Gcc.ie;
   DOM.Gcc._ieb = DOM.Gcc.ieb;
 
   DOM.Gcc._js = DOM.Gcc.js;
   DOM.Gcc._jsb = DOM.Gcc.jsb;
-  DOM.Gcc.jn = DOM.Gcc.jn;
-  DOM.Gcc.jnb = DOM.Gcc.jnb;
+  DOM.Gcc._jn = DOM.Gcc.jn;
+  DOM.Gcc._jnb = DOM.Gcc.jnb;
   DOM.Gcc._je = DOM.Gcc.je;
   DOM.Gcc._jeb = DOM.Gcc.jeb;
 
   DOM.Gcc._ks = DOM.Gcc.ks;
   DOM.Gcc._ksb = DOM.Gcc.ksb;
-  DOM.Gcc.kn = DOM.Gcc.kn;
-  DOM.Gcc.knb = DOM.Gcc.knb;
+  DOM.Gcc._kn = DOM.Gcc.kn;
+  DOM.Gcc._knb = DOM.Gcc.knb;
   DOM.Gcc._ke = DOM.Gcc.ke;
   DOM.Gcc._keb = DOM.Gcc.keb;
 
@@ -688,22 +688,22 @@ void domain_map(void)
 
   DOM.Gfx._is = DOM.Gfx.is;
   DOM.Gfx._isb = DOM.Gfx.isb;
-  DOM.Gfx.in = DOM.Gfx.in;
-  DOM.Gfx.inb = DOM.Gfx.inb;
+  DOM.Gfx._in = DOM.Gfx.in;
+  DOM.Gfx._inb = DOM.Gfx.inb;
   DOM.Gfx._ie = DOM.Gfx.ie;
   DOM.Gfx._ieb = DOM.Gfx.ieb;
 
   DOM.Gfx._js = DOM.Gfx.js;
   DOM.Gfx._jsb = DOM.Gfx.jsb;
-  DOM.Gfx.jn = DOM.Gfx.jn;
-  DOM.Gfx.jnb = DOM.Gfx.jnb;
+  DOM.Gfx._jn = DOM.Gfx.jn;
+  DOM.Gfx._jnb = DOM.Gfx.jnb;
   DOM.Gfx._je = DOM.Gfx.je;
   DOM.Gfx._jeb = DOM.Gfx.jeb;
 
   DOM.Gfx._ks = DOM.Gfx.ks;
   DOM.Gfx._ksb = DOM.Gfx.ksb;
-  DOM.Gfx.kn = DOM.Gfx.kn;
-  DOM.Gfx.knb = DOM.Gfx.knb;
+  DOM.Gfx._kn = DOM.Gfx.kn;
+  DOM.Gfx._knb = DOM.Gfx.knb;
   DOM.Gfx._ke = DOM.Gfx.ke;
   DOM.Gfx._keb = DOM.Gfx.keb;
 
@@ -738,22 +738,22 @@ void domain_map(void)
 
   DOM.Gfy._is = DOM.Gfy.is;
   DOM.Gfy._isb = DOM.Gfy.isb;
-  DOM.Gfy.in = DOM.Gfy.in;
-  DOM.Gfy.inb = DOM.Gfy.inb;
+  DOM.Gfy._in = DOM.Gfy.in;
+  DOM.Gfy._inb = DOM.Gfy.inb;
   DOM.Gfy._ie = DOM.Gfy.ie;
   DOM.Gfy._ieb = DOM.Gfy.ieb;
 
   DOM.Gfy._js = DOM.Gfy.js;
   DOM.Gfy._jsb = DOM.Gfy.jsb;
-  DOM.Gfy.jn = DOM.Gfy.jn;
-  DOM.Gfy.jnb = DOM.Gfy.jnb;
+  DOM.Gfy._jn = DOM.Gfy.jn;
+  DOM.Gfy._jnb = DOM.Gfy.jnb;
   DOM.Gfy._je = DOM.Gfy.je;
   DOM.Gfy._jeb = DOM.Gfy.jeb;
 
   DOM.Gfy._ks = DOM.Gfy.ks;
   DOM.Gfy._ksb = DOM.Gfy.ksb;
-  DOM.Gfy.kn = DOM.Gfy.kn;
-  DOM.Gfy.knb = DOM.Gfy.knb;
+  DOM.Gfy._kn = DOM.Gfy.kn;
+  DOM.Gfy._knb = DOM.Gfy.knb;
   DOM.Gfy._ke = DOM.Gfy.ke;
   DOM.Gfy._keb = DOM.Gfy.keb;
 
@@ -788,22 +788,22 @@ void domain_map(void)
 
   DOM.Gfz._is = DOM.Gfz.is;
   DOM.Gfz._isb = DOM.Gfz.isb;
-  DOM.Gfz.in = DOM.Gfz.in;
-  DOM.Gfz.inb = DOM.Gfz.inb;
+  DOM.Gfz._in = DOM.Gfz.in;
+  DOM.Gfz._inb = DOM.Gfz.inb;
   DOM.Gfz._ie = DOM.Gfz.ie;
   DOM.Gfz._ieb = DOM.Gfz.ieb;
 
   DOM.Gfz._js = DOM.Gfz.js;
   DOM.Gfz._jsb = DOM.Gfz.jsb;
-  DOM.Gfz.jn = DOM.Gfz.jn;
-  DOM.Gfz.jnb = DOM.Gfz.jnb;
+  DOM.Gfz._jn = DOM.Gfz.jn;
+  DOM.Gfz._jnb = DOM.Gfz.jnb;
   DOM.Gfz._je = DOM.Gfz.je;
   DOM.Gfz._jeb = DOM.Gfz.jeb;
 
   DOM.Gfz._ks = DOM.Gfz.ks;
   DOM.Gfz._ksb = DOM.Gfz.ksb;
-  DOM.Gfz.kn = DOM.Gfz.kn;
-  DOM.Gfz.knb = DOM.Gfz.knb;
+  DOM.Gfz._kn = DOM.Gfz.kn;
+  DOM.Gfz._knb = DOM.Gfz.knb;
   DOM.Gfz._ke = DOM.Gfz.ke;
   DOM.Gfz._keb = DOM.Gfz.keb;
 
@@ -857,22 +857,22 @@ void domain_map(void)
 
     Dom[i].Gcc._is = DOM_BUF;
     Dom[i].Gcc._isb = Dom[i].Gcc._is - DOM_BUF;
-    Dom[i].Gcc.in = Dom[i].xn;
-    Dom[i].Gcc.inb = Dom[i].Gcc.in + 2 * DOM_BUF;
+    Dom[i].Gcc._in = Dom[i].xn;
+    Dom[i].Gcc._inb = Dom[i].Gcc.in + 2 * DOM_BUF;
     Dom[i].Gcc._ie = Dom[i].Gcc._isb + Dom[i].Gcc.in;
     Dom[i].Gcc._ieb = Dom[i].Gcc._ie + DOM_BUF;
 
     Dom[i].Gcc._js = DOM_BUF;
     Dom[i].Gcc._jsb = Dom[i].Gcc._js - DOM_BUF;
-    Dom[i].Gcc.jn = Dom[i].yn;
-    Dom[i].Gcc.jnb = Dom[i].Gcc.jn + 2 * DOM_BUF;
+    Dom[i].Gcc._jn = Dom[i].yn;
+    Dom[i].Gcc._jnb = Dom[i].Gcc.jn + 2 * DOM_BUF;
     Dom[i].Gcc._je = Dom[i].Gcc._jsb + Dom[i].Gcc.jn;
     Dom[i].Gcc._jeb = Dom[i].Gcc._je + DOM_BUF;
 
     Dom[i].Gcc._ks = DOM_BUF;
     Dom[i].Gcc._ksb = Dom[i].Gcc._ks - DOM_BUF;
-    Dom[i].Gcc.kn = Dom[i].zn;
-    Dom[i].Gcc.knb = Dom[i].Gcc.kn + 2 * DOM_BUF;
+    Dom[i].Gcc._kn = Dom[i].zn;
+    Dom[i].Gcc._knb = Dom[i].Gcc.kn + 2 * DOM_BUF;
     Dom[i].Gcc._ke = Dom[i].Gcc._ksb + Dom[i].Gcc.kn;
     Dom[i].Gcc._keb = Dom[i].Gcc._ke + DOM_BUF;
 
@@ -916,22 +916,22 @@ void domain_map(void)
 
     Dom[i].Gfx._is = DOM_BUF;
     Dom[i].Gfx._isb = Dom[i].Gfx._is - DOM_BUF;
-    Dom[i].Gfx.in = Dom[i].xn;
-    Dom[i].Gfx.inb = Dom[i].Gfx.in + 2 * DOM_BUF;
+    Dom[i].Gfx._in = Dom[i].xn;
+    Dom[i].Gfx._inb = Dom[i].Gfx.in + 2 * DOM_BUF;
     Dom[i].Gfx._ie = Dom[i].Gfx._isb + Dom[i].Gfx.in;
     Dom[i].Gfx._ieb = Dom[i].Gfx._ie + DOM_BUF;
 
     Dom[i].Gfx._js = DOM_BUF;
     Dom[i].Gfx._jsb = Dom[i].Gfx._js - DOM_BUF;
-    Dom[i].Gfx.jn = Dom[i].yn;
-    Dom[i].Gfx.jnb = Dom[i].Gfx.jn + 2 * DOM_BUF;
+    Dom[i].Gfx._jn = Dom[i].yn;
+    Dom[i].Gfx._jnb = Dom[i].Gfx.jn + 2 * DOM_BUF;
     Dom[i].Gfx._je = Dom[i].Gfx._jsb + Dom[i].Gfx.jn;
     Dom[i].Gfx._jeb = Dom[i].Gfx._je + DOM_BUF;
 
     Dom[i].Gfx._ks = DOM_BUF;
     Dom[i].Gfx._ksb = Dom[i].Gfx._ks - DOM_BUF;
-    Dom[i].Gfx.kn = Dom[i].zn;
-    Dom[i].Gfx.knb = Dom[i].Gfx.kn + 2 * DOM_BUF;
+    Dom[i].Gfx._kn = Dom[i].zn;
+    Dom[i].Gfx._knb = Dom[i].Gfx.kn + 2 * DOM_BUF;
     Dom[i].Gfx._ke = Dom[i].Gfx._ksb + Dom[i].Gfx.kn;
     Dom[i].Gfx._keb = Dom[i].Gfx._ke + DOM_BUF;
 
@@ -975,22 +975,22 @@ void domain_map(void)
 
     Dom[i].Gfy._is = DOM_BUF;
     Dom[i].Gfy._isb = Dom[i].Gfy._is - DOM_BUF;
-    Dom[i].Gfy.in = Dom[i].xn;
-    Dom[i].Gfy.inb = Dom[i].Gfy.in + 2 * DOM_BUF;
+    Dom[i].Gfy._in = Dom[i].xn;
+    Dom[i].Gfy._inb = Dom[i].Gfy.in + 2 * DOM_BUF;
     Dom[i].Gfy._ie = Dom[i].Gfy._isb + Dom[i].Gfy.in;
     Dom[i].Gfy._ieb = Dom[i].Gfy._ie + DOM_BUF;
 
     Dom[i].Gfy._js = DOM_BUF;
     Dom[i].Gfy._jsb = Dom[i].Gfy._js - DOM_BUF;
-    Dom[i].Gfy.jn = Dom[i].yn;
-    Dom[i].Gfy.jnb = Dom[i].Gfy.jn + 2 * DOM_BUF;
+    Dom[i].Gfy._jn = Dom[i].yn;
+    Dom[i].Gfy._jnb = Dom[i].Gfy.jn + 2 * DOM_BUF;
     Dom[i].Gfy._je = Dom[i].Gfy._jsb + Dom[i].Gfy.jn;
     Dom[i].Gfy._jeb = Dom[i].Gfy._je + DOM_BUF;
 
     Dom[i].Gfy._ks = DOM_BUF;
     Dom[i].Gfy._ksb = Dom[i].Gfy._ks - DOM_BUF;
-    Dom[i].Gfy.kn = Dom[i].zn;
-    Dom[i].Gfy.knb = Dom[i].Gfy.kn + 2 * DOM_BUF;
+    Dom[i].Gfy._kn = Dom[i].zn;
+    Dom[i].Gfy._knb = Dom[i].Gfy.kn + 2 * DOM_BUF;
     Dom[i].Gfy._ke = Dom[i].Gfy._ksb + Dom[i].Gfy.kn;
     Dom[i].Gfy._keb = Dom[i].Gfy._ke + DOM_BUF;
 
@@ -1034,22 +1034,22 @@ void domain_map(void)
 
     Dom[i].Gfz._is = DOM_BUF;
     Dom[i].Gfz._isb = Dom[i].Gfz._is - DOM_BUF;
-    Dom[i].Gfz.in = Dom[i].xn;
-    Dom[i].Gfz.inb = Dom[i].Gfz.in + 2 * DOM_BUF;
+    Dom[i].Gfz._in = Dom[i].xn;
+    Dom[i].Gfz._inb = Dom[i].Gfz.in + 2 * DOM_BUF;
     Dom[i].Gfz._ie = Dom[i].Gfz._isb + Dom[i].Gfz.in;
     Dom[i].Gfz._ieb = Dom[i].Gfz._ie + DOM_BUF;
 
     Dom[i].Gfz._js = DOM_BUF;
     Dom[i].Gfz._jsb = Dom[i].Gfz._js - DOM_BUF;
-    Dom[i].Gfz.jn = Dom[i].yn;
-    Dom[i].Gfz.jnb = Dom[i].Gfz.jn + 2 * DOM_BUF;
+    Dom[i].Gfz._jn = Dom[i].yn;
+    Dom[i].Gfz._jnb = Dom[i].Gfz.jn + 2 * DOM_BUF;
     Dom[i].Gfz._je = Dom[i].Gfz._jsb + Dom[i].Gfz.jn;
     Dom[i].Gfz._jeb = Dom[i].Gfz._je + DOM_BUF;
 
     Dom[i].Gfz._ks = DOM_BUF;
     Dom[i].Gfz._ksb = Dom[i].Gfz._ks - DOM_BUF;
-    Dom[i].Gfz.kn = Dom[i].zn;
-    Dom[i].Gfz.knb = Dom[i].Gfz.kn + 2 * DOM_BUF;
+    Dom[i].Gfz._kn = Dom[i].zn;
+    Dom[i].Gfz._knb = Dom[i].Gfz.kn + 2 * DOM_BUF;
     Dom[i].Gfz._ke = Dom[i].Gfz._ksb + Dom[i].Gfz.kn;
     Dom[i].Gfz._keb = Dom[i].Gfz._ke + DOM_BUF;
 
@@ -1104,22 +1104,22 @@ void domain_map(void)
 
     dom[i].Gcc._is = DOM_BUF;
     dom[i].Gcc._isb = dom[i].Gcc._is - DOM_BUF;
-    dom[i].Gcc.in = dom[i].xn;
-    dom[i].Gcc.inb = dom[i].Gcc.in + 2 * DOM_BUF;
+    dom[i].Gcc._in = dom[i].xn;
+    dom[i].Gcc._inb = dom[i].Gcc.in + 2 * DOM_BUF;
     dom[i].Gcc._ie = dom[i].Gcc._isb + dom[i].Gcc.in;
     dom[i].Gcc._ieb = dom[i].Gcc._ie + DOM_BUF;
 
     dom[i].Gcc._js = DOM_BUF;
     dom[i].Gcc._jsb = dom[i].Gcc._js - DOM_BUF;
-    dom[i].Gcc.jn = dom[i].yn;
-    dom[i].Gcc.jnb = dom[i].Gcc.jn + 2 * DOM_BUF;
+    dom[i].Gcc._jn = dom[i].yn;
+    dom[i].Gcc._jnb = dom[i].Gcc.jn + 2 * DOM_BUF;
     dom[i].Gcc._je = dom[i].Gcc._jsb + dom[i].Gcc.jn;
     dom[i].Gcc._jeb = dom[i].Gcc._je + DOM_BUF;
 
     dom[i].Gcc._ks = DOM_BUF;
     dom[i].Gcc._ksb = dom[i].Gcc._ks - DOM_BUF;
-    dom[i].Gcc.kn = dom[i].zn;
-    dom[i].Gcc.knb = dom[i].Gcc.kn + 2 * DOM_BUF;
+    dom[i].Gcc._kn = dom[i].zn;
+    dom[i].Gcc._knb = dom[i].Gcc.kn + 2 * DOM_BUF;
     dom[i].Gcc._ke = dom[i].Gcc._ksb + dom[i].Gcc.kn;
     dom[i].Gcc._keb = dom[i].Gcc._ke + DOM_BUF;
 
@@ -1163,22 +1163,22 @@ void domain_map(void)
 
     dom[i].Gfx._is = DOM_BUF;
     dom[i].Gfx._isb = dom[i].Gfx._is - DOM_BUF;
-    dom[i].Gfx.in = dom[i].xn;
-    dom[i].Gfx.inb = dom[i].Gfx.in + 2 * DOM_BUF;
+    dom[i].Gfx._in = dom[i].xn;
+    dom[i].Gfx._inb = dom[i].Gfx.in + 2 * DOM_BUF;
     dom[i].Gfx._ie = dom[i].Gfx._isb + dom[i].Gfx.in;
     dom[i].Gfx._ieb = dom[i].Gfx._ie + DOM_BUF;
 
     dom[i].Gfx._js = DOM_BUF;
     dom[i].Gfx._jsb = dom[i].Gfx._js - DOM_BUF;
-    dom[i].Gfx.jn = dom[i].yn;
-    dom[i].Gfx.jnb = dom[i].Gfx.jn + 2 * DOM_BUF;
+    dom[i].Gfx._jn = dom[i].yn;
+    dom[i].Gfx._jnb = dom[i].Gfx.jn + 2 * DOM_BUF;
     dom[i].Gfx._je = dom[i].Gfx._jsb + dom[i].Gfx.jn;
     dom[i].Gfx._jeb = dom[i].Gfx._je + DOM_BUF;
 
     dom[i].Gfx._ks = DOM_BUF;
     dom[i].Gfx._ksb = dom[i].Gfx._ks - DOM_BUF;
-    dom[i].Gfx.kn = dom[i].zn;
-    dom[i].Gfx.knb = dom[i].Gfx.kn + 2 * DOM_BUF;
+    dom[i].Gfx._kn = dom[i].zn;
+    dom[i].Gfx._knb = dom[i].Gfx.kn + 2 * DOM_BUF;
     dom[i].Gfx._ke = dom[i].Gfx._ksb + dom[i].Gfx.kn;
     dom[i].Gfx._keb = dom[i].Gfx._ke + DOM_BUF;
 
@@ -1222,22 +1222,22 @@ void domain_map(void)
 
     dom[i].Gfy._is = DOM_BUF;
     dom[i].Gfy._isb = dom[i].Gfy._is - DOM_BUF;
-    dom[i].Gfy.in = dom[i].xn;
-    dom[i].Gfy.inb = dom[i].Gfy.in + 2 * DOM_BUF;
+    dom[i].Gfy._in = dom[i].xn;
+    dom[i].Gfy._inb = dom[i].Gfy.in + 2 * DOM_BUF;
     dom[i].Gfy._ie = dom[i].Gfy._isb + dom[i].Gfy.in;
     dom[i].Gfy._ieb = dom[i].Gfy._ie + DOM_BUF;
 
     dom[i].Gfy._js = DOM_BUF;
     dom[i].Gfy._jsb = dom[i].Gfy._js - DOM_BUF;
-    dom[i].Gfy.jn = dom[i].yn;
-    dom[i].Gfy.jnb = dom[i].Gfy.jn + 2 * DOM_BUF;
+    dom[i].Gfy._jn = dom[i].yn;
+    dom[i].Gfy._jnb = dom[i].Gfy.jn + 2 * DOM_BUF;
     dom[i].Gfy._je = dom[i].Gfy._jsb + dom[i].Gfy.jn;
     dom[i].Gfy._jeb = dom[i].Gfy._je + DOM_BUF;
 
     dom[i].Gfy._ks = DOM_BUF;
     dom[i].Gfy._ksb = dom[i].Gfy._ks - DOM_BUF;
-    dom[i].Gfy.kn = dom[i].zn;
-    dom[i].Gfy.knb = dom[i].Gfy.kn + 2 * DOM_BUF;
+    dom[i].Gfy._kn = dom[i].zn;
+    dom[i].Gfy._knb = dom[i].Gfy.kn + 2 * DOM_BUF;
     dom[i].Gfy._ke = dom[i].Gfy._ksb + dom[i].Gfy.kn;
     dom[i].Gfy._keb = dom[i].Gfy._ke + DOM_BUF;
 
@@ -1281,22 +1281,22 @@ void domain_map(void)
 
     dom[i].Gfz._is = DOM_BUF;
     dom[i].Gfz._isb = dom[i].Gfz._is - DOM_BUF;
-    dom[i].Gfz.in = dom[i].xn;
-    dom[i].Gfz.inb = dom[i].Gfz.in + 2 * DOM_BUF;
+    dom[i].Gfz._in = dom[i].xn;
+    dom[i].Gfz._inb = dom[i].Gfz.in + 2 * DOM_BUF;
     dom[i].Gfz._ie = dom[i].Gfz._isb + dom[i].Gfz.in;
     dom[i].Gfz._ieb = dom[i].Gfz._ie + DOM_BUF;
 
     dom[i].Gfz._js = DOM_BUF;
     dom[i].Gfz._jsb = dom[i].Gfz._js - DOM_BUF;
-    dom[i].Gfz.jn = dom[i].yn;
-    dom[i].Gfz.jnb = dom[i].Gfz.jn + 2 * DOM_BUF;
+    dom[i].Gfz._jn = dom[i].yn;
+    dom[i].Gfz._jnb = dom[i].Gfz.jn + 2 * DOM_BUF;
     dom[i].Gfz._je = dom[i].Gfz._jsb + dom[i].Gfz.jn;
     dom[i].Gfz._jeb = dom[i].Gfz._je + DOM_BUF;
 
     dom[i].Gfz._ks = DOM_BUF;
     dom[i].Gfz._ksb = dom[i].Gfz._ks - DOM_BUF;
-    dom[i].Gfz.kn = dom[i].zn;
-    dom[i].Gfz.knb = dom[i].Gfz.kn + 2 * DOM_BUF;
+    dom[i].Gfz._kn = dom[i].zn;
+    dom[i].Gfz._knb = dom[i].Gfz.kn + 2 * DOM_BUF;
     dom[i].Gfz._ke = dom[i].Gfz._ksb + dom[i].Gfz.kn;
     dom[i].Gfz._keb = dom[i].Gfz._ke + DOM_BUF;
 
@@ -1313,4 +1313,5 @@ void domain_map_clean(void)
 {
   free(dom);
   free(Dom);
+  // TODO: free(DOM)?
 }

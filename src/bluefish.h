@@ -145,7 +145,20 @@
 /*
  * PURPOSE
  *  Define the size of the domain boundary condition ghost cell buffer (the
- *  number of ghost cells on one side of a give domain direction).
+ *  number of ghost cells on one side of a given domain direction).
+ ******
+ */
+
+/****d* bluefish/COMM_BUF
+ * NAME
+ *  COMM_BUF
+ * TYPE
+ */
+#define COMM_BUF 1
+/*
+ * PURPOSE
+ *  Define the size of the domain communication boundary buffer (the number of
+ *  communication cells on one side of a given domain direction).
  ******
  */
 

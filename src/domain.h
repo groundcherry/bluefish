@@ -57,16 +57,22 @@ typedef struct grid_info {
   int knb;
   int _is;
   int _ie;
+  int _in;
   int _isb;
   int _ieb;
+  int _inb;
   int _js;
   int _je;
+  int _jn;
   int _jsb;
   int _jeb;
+  int _jnb;
   int _ks;
   int _ke;
+  int _kn;
   int _ksb;
   int _keb;
+  int _knb;
   int s1;
   int s1b;
   int s2;
@@ -107,21 +113,30 @@ typedef struct grid_info {
  *    the boundary ghost elements
  *  * _is -- the domain start index in the x-direction (local indexing)
  *  * _ie -- the domain end index in the x-direction (local indexing)
+ *  * _in -- the number of elements in the x-direction (local indexing)
  *  * _isb -- the domain start index in the x-direction plus boundary ghost
  *    elements (local indexing)
  *  * _ieb -- the domain end index in the x-direction plus boundary ghost
  *    elements (local indexing)
+ *  * _inb -- the number of elements in the x-direction (local indexing) plus
+ *    boundary ghost elements
  *  * _js -- the domain start index in the y-direction (local indexing)
  *  * _je -- the domain end index in the y-direction (local indexing)
+ *  * _jn -- the number of elements in the y-direction (local indexing)
  *  * _jsb -- the domain start index in the y-direction plus boundary ghost
  *    elements (local indexing)
  *  * _jeb -- the domain end index in the y-direction plus boundary ghost
  *    elements (local indexing)
+ *  * _jnb -- the number of elements in the y-direction (local indexing) plus
+ *    boundary ghost elements
  *  * _ks -- the domain start index in the z-direction (local indexing)
  *  * _ke -- the domain end index in the z-direction (local indexing)
+ *  * _kn -- the number of elements in the z-direction (local indexing)
  *  * _ksb -- the domain start index in the z-direction plus boundary ghost
  *    elements (local indexing)
  *  * _keb -- the domain end index in the z-direction plus boundary ghost
+ *  * _knb -- the number of elements in the z-direction (local indexing) plus
+ *    boundary ghost elements
  *    elements (local indexing)
  *  * s1 -- the looping stride length for the fastest-changing variable (x)
  *  * s1b -- the looping stride length for the fastest-changing variable (x)
